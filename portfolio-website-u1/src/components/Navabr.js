@@ -32,7 +32,7 @@ const Navabr = () => {
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"  />
             </svg>
           }
-          {toggle? <ul className=' list-none md:flex  items-center flex  flex-col bg-black-gradient p-3 mr-3 rounded-xl navbar_swing box-shadow '>
+          {toggle? <ul className=' list-none md:flex  items-center flex  flex-col bg-black-gradient p-3 mr-3 rounded-xl navbar_swing shadow-xl '>
             {navLinks.map((nav, index) => (
               <li key={nav.id} className={` mt-6 cursor-pointer text-[18px] items-center ml-5 flex flex-col justify-center text-white transition-all ease-in-out hover:scale-110 ${index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'}`}>
                 <a href={`#${nav.id}`}>
