@@ -20,15 +20,15 @@ const Navabr = () => {
             ))}
           </ul>
         </div>
-        <div className=' md:hidden'>
+        <div className=' md:hidden '>
           {toggle ? <svg xmlns="http://www.w3.org/2000/svg"
         onClick={() => setToggle(false)}
-            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 ml-[135px] mt-5 cursor-pointer">
+            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 ml-[140px] mt-5  cursor-pointer">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
           </svg>
             : <svg xmlns="http://www.w3.org/2000/svg"
         onClick={() => setToggle(true)}
-              fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 m-5 cursor-pointer">
+              fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 m-5 cursor-pointer mr-8">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"  />
             </svg>
           }

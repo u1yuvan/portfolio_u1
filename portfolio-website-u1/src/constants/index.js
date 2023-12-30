@@ -7,7 +7,7 @@ export const AppText={
     hello:'Hello,',
     iam:'I am ',
     yuvanraj:'Yuvan Raj',
-    desc:"Dedicated frontend developer skilled in HTML, CSS, and JavaScript, with a focus on React.js for building dynamic and efficient user interfaces. Proficient in leveraging Tailwind CSS for streamlined and responsive design. Committed to creating seamless digital experiences through the fusion of cutting-edge technologies and aesthetic design principles.",
+    desc:"Dedicated frontend developer skilled in HTML, CSS, and JavaScript, with a focus on React.js for building dynamic and efficient user interfaces. Proficient in leveraging Tailwind CSS for streamlined and responsive design.",
     skills:'Skills & ',
     experties:'Experties',
     frontedDev:'Frontend Dev',
