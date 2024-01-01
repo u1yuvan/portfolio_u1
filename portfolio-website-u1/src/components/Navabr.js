@@ -8,11 +8,11 @@ const Navabr = () => {
   return (
     <div>
       <div className=' flex justify-between'>
-        <img src={U14} alt="logo" className=' h-24 mt-2 ml-1' />
+        <img src={U15} alt="logo" className=' h-[130px] mt-2 ml-2 rounded-full cursor-pointer p-5 ' />
         <div>
           <ul className=' list-none md:flex hidden justify-end items-center flex-row'>
             {navLinks.map((nav, index) => (
-              <li key={nav.id} className={` mt-6 cursor-pointer text-[18px] text-gray-500 transition-all ease-in-out hover:scale-110 ${index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'}`}>
+              <li key={nav.id} className={` mt-6 cursor-pointer text-[18px] text-white transition-all ease-in-out hover:scale-110 ${index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'}`}>
                 <a href={`#${nav.id}`}>
                   {nav.title}
                 </a>
@@ -23,18 +23,18 @@ const Navabr = () => {
         <div className=' md:hidden '>
           {toggle ? <svg xmlns="http://www.w3.org/2000/svg"
         onClick={() => setToggle(false)}
-            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 ml-[140px] mt-5  cursor-pointer">
+            fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 ml-[130px] mt-5 mr-[17px] cursor-pointer text-white">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
           </svg>
             : <svg xmlns="http://www.w3.org/2000/svg"
         onClick={() => setToggle(true)}
-              fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 m-5 cursor-pointer mr-8">
+              fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 mt-5 cursor-pointer mr-[17px] text-white">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"  />
             </svg>
           }
-          {toggle? <ul className=' list-none md:flex  items-center flex  flex-col bg-black-gradient p-3 mr-3 rounded-xl navbar_swing shadow-xl '>
+          {toggle? <ul className=' list-none md:flex  items-center flex absolute flex-col bg-black-gradient p-3 mr-3 rounded-xl navbar_swing shadow-xl '>
             {navLinks.map((nav, index) => (
-              <li key={nav.id} className={` mt-6 cursor-pointer text-[18px] items-center ml-5 flex flex-col justify-center text-white transition-all ease-in-out hover:scale-110 ${index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'}`}>
+              <li key={nav.id} className={` mt-3 cursor-pointer text-[18px] items-center mx-6 flex flex-col align-middle justify-start text-white transition-all ease-in-out hover:scale-110 ${index === navLinks.lenght - 1 ? 'mb-0' : 'mb-3'}`}>
                 <a href={`#${nav.id}`}>
                   {nav.title}
                 </a>

@@ -22,23 +22,23 @@ export const AppText={
 export const navLinks = [
     {
         id: "home",
-        title: "Home",
+        title:"Home",
     },
     {
         id: "aboutme",
-        title: "About Me",
+        title:"About Me",
     },
     {
         id: "skills",
-        title: "Skills",
+        title:"Skills",
     },
     {
         id: "portfolio",
-        title: "Portfolio",
+        title:"Portfolio",
     },
     {
         id: "contactme",
-        title: "Contact Me",
+        title:"Contact Me",
     }
 ];
 

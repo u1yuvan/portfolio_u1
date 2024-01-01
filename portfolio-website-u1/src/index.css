@@ -17,6 +17,10 @@ code {
 }
 
 
+.green {
+  color: #23FFDA;
+}
+
 .bg_gradient_nav {
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
@@ -95,6 +99,13 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 74%, rgba(5
 	        animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
+
+.primary_gradient {
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
  @-webkit-keyframes scale-up-hor-right {
   0% {

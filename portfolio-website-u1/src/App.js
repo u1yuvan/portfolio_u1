@@ -5,7 +5,7 @@ import {  AboutMe, Companies, Contact, Footer, Home, Navbar, Portfolio, Skills }
 
 function App() {
   return (
-    <div>
+    <div className=' primary_gradient'>
 
     <Navbar />
     <Home />
