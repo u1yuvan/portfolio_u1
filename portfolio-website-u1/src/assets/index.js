@@ -33,6 +33,7 @@ import U12 from './U12.png'
 import U13 from './U13.png'
 import U14 from './U14.png'
 import U15 from './U15.png'
+import classroom from './classroom.png'
 
 
 
@@ -44,7 +45,7 @@ import U15 from './U15.png'
 
 export {
     logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
-    homeImage,aflacLogo,wiuLogo,
+    homeImage,aflacLogo,wiuLogo,classroom,
     book,
     logo1,
     laptop,

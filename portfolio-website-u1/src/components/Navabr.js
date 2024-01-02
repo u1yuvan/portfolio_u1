@@ -8,7 +8,7 @@ const Navabr = () => {
   return (
     <div>
       <div className=' flex justify-between'>
-        <img src={U15} alt="logo" className=' h-[130px] mt-2 ml-2 rounded-full cursor-pointer p-5 ' />
+        <img src={U15} alt="logo" className=' h-[100px] sm:h-[140px] ml-2 rounded-full cursor-pointer p-5  ' />
         <div>
           <ul className=' list-none md:flex hidden justify-end items-center flex-row'>
             {navLinks.map((nav, index) => (

@@ -9,12 +9,12 @@ function App() {
 
     <Navbar />
     <Home />
-    {/* <AboutMe />
+    <AboutMe />
     <Companies />
     <Contact />
     <Footer />
     <Portfolio />
-    <Skills /> */}
+    <Skills />
     </div>
   );
 }
