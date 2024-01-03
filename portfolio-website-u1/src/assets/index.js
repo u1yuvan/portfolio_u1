@@ -34,6 +34,9 @@ import U13 from './U13.png'
 import U14 from './U14.png'
 import U15 from './U15.png'
 import classroom from './classroom.png'
+import school from './school.png'
+import graduationIcon from './graduationIcon.png'
+import graduation from './graduation.jpg'
 
 
 
@@ -45,7 +48,7 @@ import classroom from './classroom.png'
 
 export {
     logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
-    homeImage,aflacLogo,wiuLogo,classroom,
+    homeImage,aflacLogo,wiuLogo,classroom,school, graduationIcon, graduation,
     book,
     logo1,
     laptop,

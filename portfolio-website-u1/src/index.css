@@ -16,6 +16,21 @@ code {
     monospace;
 }
 
+
+.animation_hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: transform 1s ease;
+}
+
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
 .gradient_line{
   background: #c2e59c;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
