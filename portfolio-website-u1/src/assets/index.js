@@ -37,6 +37,8 @@ import classroom from './classroom.png'
 import school from './school.png'
 import graduationIcon from './graduationIcon.png'
 import graduation from './graduation.jpg'
+import work from './work.png'
+import workicon from './workicon.png' 
 
 
 
@@ -48,7 +50,7 @@ import graduation from './graduation.jpg'
 
 export {
     logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
-    homeImage,aflacLogo,wiuLogo,classroom,school, graduationIcon, graduation,
+    homeImage,aflacLogo,wiuLogo,classroom,school, graduationIcon, graduation, work, workicon,
     book,
     logo1,
     laptop,

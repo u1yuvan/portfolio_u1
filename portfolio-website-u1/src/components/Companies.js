@@ -2,7 +2,7 @@ import React from 'react'
 
 const Companies = () => {
   return (
-    <div>Companies</div>
+    <div  className=' mt-[2000px]'>Companies</div>
   )
 }
 

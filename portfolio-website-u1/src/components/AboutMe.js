@@ -1,5 +1,5 @@
 import React from 'react'
-import { classroom, graduation, school, graduationIcon } from '../assets'
+import { classroom, graduation, school, graduationIcon, work, workicon } from '../assets'
 
 const AboutMe = () => {
   return (
@@ -17,12 +17,15 @@ const AboutMe = () => {
             {/* left card */}
             <div className=' mt-6 sm:mt-0 sm:mb-12  '>
               <div className='flex items-center flex-col sm:flex-row'>
-                <div className=' flex justify-start w-full mx-auto items-center animation_hidden show '>
+                <div data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  className=' flex justify-start  mx-auto items-center  mb-5'>
                   <div className='w-full sm:w-1/2 sm:pr-8'>
-                    <div className='bg-gradient-text p-4 rounded-lg  shadow hover:bg-gradient-text cursor-pointer '>
-                      <h1 className=' font-semibold text-gray-900 text-[25px] ml-20 underline'> 2017</h1>
+                    <div className='bg-gradient-text p-4 rounded-lg  shadow cursor-pointer '>
+                      <h1 className=' font-semibold text-gray-900 text-[25px]  underline text-center'> 2018</h1>
                       <img src={classroom} className=' rounded-full items-center flex justify-center p-7' />
-                      <p className=' text-gray-900 text-[15px]'>Completed SSLC in Shree Matric School</p>
+                      <p className=' text-gray-900 text-[15px]'>I accomplished SSLC completion in 2017 from Shree Matriculation School</p>
 
                     </div>
                   </div>
@@ -34,33 +37,63 @@ const AboutMe = () => {
                 </div>
               </div>
             </div>
-             {/* Right card */}
-             <div className=' mt-6 sm:mt-0 sm:mb-12'>
+            {/* Right card */}
+            <div className=' mt-6 sm:mt-0 sm:mb-12'>
               <div className='flex items-center flex-col sm:flex-row'>
-                <div className=' flex justify-end w-full mx-auto items-center animation_hidden show'>
+                <div
+                  data-aos="fade-left"
+                  data-aos-offset="500"
+                  data-aos-easing="ease-in-sine"
+                  data-aos-duration="500"
+                  className=' flex justify-end w-full mx-auto items-center  mb-5'>
                   <div className='w-full sm:w-1/2 sm:pl-8'>
-                    <div  className='bg-gradient-text p-4 rounded-lg shadow hover:bg-gradient-text  cursor-pointer'>
-                      <h1 className=' font-semibold text-gray-900 text-[25px] ml-20 underline'> 2022 </h1>
-                          <img  src={graduation} className=' rounded-full items-center flex justify-center p-7'/>
-                          <p className=' text-gray-900 text-[15px]'>Diploma ECE Graduate in GRG Polytechnic College</p>
-                         
+                    <div className='bg-gradient-text p-4 rounded-lg shadow hover:bg-gradient-text  cursor-pointer'>
+                      <h1 className=' font-semibold text-gray-900 text-[25px] text-center underline'> 2022 </h1>
+                      <img src={graduation} className=' rounded-full items-center flex justify-center p-6' />
+                      <p className=' text-gray-900 text-[15px]'>Graduated with a Diploma in Electronics and Communication Engineering in 2022
+                      </p>
+
                     </div>
                   </div>
                 </div>
                 <div className=' w-10 h-10 absolute right-1/2  transform -translate-x-1/2 -translate-y-4  sm:translte-y-0 flex items-center justify-center rounded-full '>
                   <figure>
-                  <img src={graduationIcon} className=' ml-[39px] rounded-full m-3' />
+                    <img src={graduationIcon} className=' ml-[39px] rounded-full m-3' />
                   </figure>
                 </div>
               </div>
             </div>
-        
+
+            <div className=' mt-6 sm:mt-0 sm:mb-12  '>
+              <div className='flex items-center flex-col sm:flex-row '>
+                <div
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                  className=' hover:scale-110 flex justify-start w-full mx-auto items-center  '>
+                  <div className='w-full sm:w-1/2 sm:pr-8'>
+                    <div className='bg-gradient-text p-4 rounded-lg  shadow hover:bg-gradient-text cursor-pointer '>
+                      <h1 className=' font-semibold text-gray-900 text-[25px]  underline'> 2022 - 2023 </h1>
+                      <img src={work} className=' rounded-full items-center flex justify-center p-7' />
+                      <p className=' text-gray-900 text-[15px]'>I gained valuable experience as a Relationship Manager at Maruti Suzuki NEXA, fostering strong connections with customers and enhancing their automotive experiences.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div className=' w-11 h-11 absolute left-1/2 primary_gradient  transform -translate-x-1/2 -translate-y-4  sm:translte-y-0 flex items-center justify-center rounded-full '>
+                  <figure>
+                    <img src={workicon} />
+                  </figure>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
 
 
-           
+
 
 
 
