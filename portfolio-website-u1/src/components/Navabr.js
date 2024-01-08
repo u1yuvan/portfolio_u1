@@ -12,7 +12,7 @@ const Navabr = () => {
         <div>
           <ul className=' list-none md:flex hidden justify-end items-center flex-row'>
             {navLinks.map((nav, index) => (
-              <li key={nav.id} className={` mt-6 cursor-pointer text-[18px] text-white transition-all ease-in-out hover:scale-110 ${index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'}`}>
+              <li key={nav.id} className={` mt-6 cursor-pointer text-[18px] text-white transition-all ease-in-out hover:scale-110   ${index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'}`}>
                 <a href={`#${nav.id}`}>
                   {nav.title}
                 </a>
@@ -34,7 +34,7 @@ const Navabr = () => {
           }
           {toggle? <ul className=' list-none md:flex  items-center flex absolute flex-col bg-black-gradient p-3 mr-3 rounded-xl navbar_swing shadow-xl '>
             {navLinks.map((nav, index) => (
-              <li key={nav.id} className={` mt-3 cursor-pointer text-[18px] items-center mx-6 flex flex-col align-middle justify-start text-white transition-all ease-in-out hover:scale-110 ${index === navLinks.lenght - 1 ? 'mb-0' : 'mb-3'}`}>
+              <li key={nav.id} className={` mt-3 cursor-pointer text-[18px] items-center mx-6 flex flex-col align-middle justify-start text-white transition-all ease-in-out hover:scale-110  ${index === navLinks.lenght - 1 ? 'mb-0' : 'mb-3'}`}>
                 <a href={`#${nav.id}`}>
                   {nav.title}
                 </a>

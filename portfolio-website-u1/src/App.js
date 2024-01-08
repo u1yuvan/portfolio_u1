@@ -6,15 +6,15 @@ function App() {
   return (
 
 
-    <div className=' primary_gradient'>
+    <div className=' primary_gradient scroll-smooth'>
 
       <Navbar />
       <Home />
       <AboutMe />
+      <Portfolio />
       <Companies  />
       <Contact />
       <Footer />
-      <Portfolio />
       <Skills />
     </div>
   );

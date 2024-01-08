@@ -1,7 +1,5 @@
-import { aflacLogo, android, angular, cognizantLogo,
-     facebook, firebase, instagram, ionic, linkdin, mysql,
-      nodejs,
-      react, typescript, wellsLogo, wiuLogo, youtube } from "../assets"
+import { 
+     facebook,  instagram, linkdin, Nike, GPT3, HooBank, HTML_CSS, react_JS} from "../assets"
 
 export const AppText={
     hello:'Hello,',
@@ -43,157 +41,52 @@ export const navLinks = [
 ];
 
 
-export const aboutSection=[
+
+
+
+
+export const portfolio =[
     {
         id:1,
-        image:'https://img.freepik.com/premium-vector/ui-ux-programmer-flat-design-vector-illustration-business-information-team-sharing-ideas-with-designer-coding-interface-software-app-development_2175-1809.jpg?w=2000',
-        title:'UI/UX Designer',
-        desc:'Expert in UI/UX designing software like figma'
-    },
-    {
-        id:2,
-        image:'https://media.istockphoto.com/id/1304570729/vector/front-end-development-concept-vector-flat-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=0lpu0j-4FbuoA7xpGzt9apKZeI5F9KlNNe0qRYxjUYs=',
-        title:'Frontend Developer',
-        desc:'Expert in UI/UX designing software like figma'
+        title:'Nike Website',
+        type:'website',
+        desc:
+        "Crafted with React.js and stylized with Tailwind CSS, our front-end landing webpage channels the sophistication of Nike's design ethos. Dynamic and responsive, the interface seamlessly blends React's interactivity with Tailwind's sleek styling, delivering a user-centric experience reminiscent of top-tier brands like Nike.",
+        imageUrl:Nike,
     },
     {
         id:3,
-        image:'https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000',
-        title:'Back-end Developer',
-        desc:'Expert in UI/UX designing software like figma'
-    }
-]
-
-export const skillsList=[
-    {
-        id:1,
-        icon:angular
+        title:'GPT3 Website',
+        type:'website',
+        desc:"Transforming user experience into an intelligent journey, our React.js-powered front-end landing webpage mirrors the innovation of GPT-3. With dynamic content generation and responsive design",
+        imageUrl:GPT3,
     },
     {
-        id:1,
-        icon:react
-    },
-    {
-        id:1,
-        icon:typescript
-    },
-    {
-        id:1,
-        icon:firebase
-    },
-    {
-        id:1,
-        icon:android
-    },
-    {
-        id:1,
-        icon:ionic
-    },
-    {
-        id:1,
-        icon:mysql
-    },
-    {
-        id:1,
-        icon:react
-    },
-    {
-        id:1,
-        icon:typescript
-    },
-    {
-        id:1,
-        icon:firebase
-    },
-    {
-        id:1,
-        icon:android
-    },
-    {
-        id:1,
-        icon:nodejs
-    },
-
-]
-
-export const workDetail=[
-    { 
-        id:1,
-        year:'2021',
-        compnayName:'Wells Fargo',
-        position:'Lead Software Developer'
-    },
-    { 
-        id:1,
-        year:'2020',
-        compnayName:'Empowered Benefits',
-        position:'Full Stack Developer'
-    },
-    { 
-        id:1,
-        year:'2018',
-        compnayName:'Western Illionois University',
-        position:'Full Stack Developer'
-    },
-    { 
-        id:1,
-        year:'2016',
-        compnayName:'Cognizant',
-        position:'Programmer Analyst'
-    },
-]
-
-export const portfolio=[
-    {
-        id:1,
-        title:'Food Delivery UI/UX',
-        type:'ui/ux',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300"
+        id:2,
+        title:'Hoo Bank',
+        type:'website',
+        desc:"Experience the future of online banking with our React.js-powered front-end landing page, inspired by modern bank apps. Tailwind CSS adds a touch of sleekness, ensuring a seamless and visually captivating interface that redefines the user experience in the world of finance.",
+        imageUrl:HooBank,
     },
     {
         id:4,
-        title:'Funny Website',
+        title:'HTML & CSS Landing webpage',
         type:'website',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png"
+        desc:"Landing website using HTML & CSS During learning time ",
+        imageUrl:HTML_CSS,
     },
     {
-        id:2,
-        title:'Business Listing App',
-        type:'mobile',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png"
-    },
-    {
-        id:3,
-        title:'Food Delivery UI/UX',
-        type:'ui/ux',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png"
+        id:5,
+        title:'Grocery shopping site ',
+        type:'website',
+        desc:"Grocery shopping site using React JS During learning time ",
+        imageUrl:react_JS,
     },
 
     
 ]
 
-export const CompanyImage=[
-    {
-        id:1,
-        imageUrl:cognizantLogo
-    },
-    {
-        id:1,
-        imageUrl:wellsLogo
-    },
-    {
-        id:1,
-        imageUrl:aflacLogo
-    },
-    {
-        id:1,
-        imageUrl:wiuLogo
-    }
-]
+
 
 export const socialNetwork=[
     {
@@ -201,11 +94,7 @@ export const socialNetwork=[
         logo:instagram,
         url:'https://www.instagram.com/tubeguruji/'
     },
-    {
-        id:1,
-        logo:youtube,
-        url:'https://www.youtube.com/channel/UC33Tc4FCgd_to314_b2hNTg',
-    },
+    
     {
         id:1,
         logo:linkdin,
