@@ -49,7 +49,7 @@ export const portfolio =[
     {
         id:1,
         title:'Nike Website',
-        type:'website',
+        type:'react_js',
         desc:
         "Crafted with React.js and stylized with Tailwind CSS, our front-end landing webpage channels the sophistication of Nike's design ethos. Dynamic and responsive, the interface seamlessly blends React's interactivity with Tailwind's sleek styling, delivering a user-centric experience reminiscent of top-tier brands like Nike.",
         imageUrl:Nike,
@@ -57,28 +57,69 @@ export const portfolio =[
     {
         id:3,
         title:'GPT3 Website',
-        type:'website',
+        type:'react_js',
         desc:"Transforming user experience into an intelligent journey, our React.js-powered front-end landing webpage mirrors the innovation of GPT-3. With dynamic content generation and responsive design",
         imageUrl:GPT3,
     },
     {
         id:2,
         title:'Hoo Bank',
-        type:'website',
+        type:'react_js',
         desc:"Experience the future of online banking with our React.js-powered front-end landing page, inspired by modern bank apps. Tailwind CSS adds a touch of sleekness, ensuring a seamless and visually captivating interface that redefines the user experience in the world of finance.",
         imageUrl:HooBank,
     },
     {
         id:4,
         title:'HTML & CSS Landing webpage',
-        type:'website',
+        type:'learning_time',
         desc:"Landing website using HTML & CSS During learning time ",
         imageUrl:HTML_CSS,
     },
     {
         id:5,
         title:'Grocery shopping site ',
-        type:'website',
+        type:'learning_time',
+        desc:"Grocery shopping site using React JS During learning time ",
+        imageUrl:react_JS,
+    },
+
+    
+]
+
+export const datas =[
+    {
+        id:1,
+        title:'Nike Website',
+        type:'react_js',
+        desc:
+        "Crafted with React.js and stylized with Tailwind CSS, our front-end landing webpage channels the sophistication of Nike's design ethos. Dynamic and responsive, the interface seamlessly blends React's interactivity with Tailwind's sleek styling, delivering a user-centric experience reminiscent of top-tier brands like Nike.",
+        imageUrl:Nike,
+    },
+    {
+        id:3,
+        title:'GPT3 Website',
+        type:'react_js',
+        desc:"Transforming user experience into an intelligent journey, our React.js-powered front-end landing webpage mirrors the innovation of GPT-3. With dynamic content generation and responsive design",
+        imageUrl:GPT3,
+    },
+    {
+        id:2,
+        title:'Modern Bank website',
+        type:'react_js',
+        desc:"Experience the future of online banking with our React.js-powered front-end landing page, inspired by modern bank apps. Tailwind CSS adds a touch of sleekness, ensuring a seamless and visually captivating interface that redefines the user experience in the world of finance.",
+        imageUrl:HooBank,
+    },
+    {
+        id:4,
+        title:'HTML & CSS Landing webpage',
+        type:'learning_time',
+        desc:"Landing website using HTML & CSS During learning time ",
+        imageUrl:HTML_CSS,
+    },
+    {
+        id:5,
+        title:'Grocery shopping site ',
+        type:'learning_time',
         desc:"Grocery shopping site using React JS During learning time ",
         imageUrl:react_JS,
     },
