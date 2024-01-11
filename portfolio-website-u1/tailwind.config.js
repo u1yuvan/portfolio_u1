@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ['montserrat']
+      },
+      colors:{
+        linkedin:" #0077b5",
+        github:"#2b3137"
       }
     },
   },

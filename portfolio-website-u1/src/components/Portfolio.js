@@ -50,13 +50,13 @@ const Portfolio = () => {
           </div>
 
           <div className=' flex gap-3'>
-            <button onClick={() => setSelectTab('all')} className=' shadow hover:shadow-inner text-white border border-white border-solid py-2 px-4 rounded-[8px]' >
+            <button onClick={() => setSelectTab('all')} className=' shadow hover:shadow-inner hover:scale-105 text-white border border-white border-solid py-2 px-4 rounded-[8px]' >
               All
             </button>
-            <button onClick={() => setSelectTab('react_js')} className=' shadow hover:shadow-inner text-white border border-white border-solid py-2 px-4 rounded-[8px]' >
+            <button onClick={() => setSelectTab('react_js')} className=' shadow hover:shadow-inner hover:scale-105 text-white border border-white border-solid py-2 px-4 rounded-[8px]' >
               React JS
             </button>
-            <button onClick={() => setSelectTab('learning_time')} className=' shadow hover:shadow-inner text-white border border-white border-solid py-2 px-4 rounded-[8px] mr-5' >
+            <button onClick={() => setSelectTab('learning_time')} className=' shadow hover:shadow-inner hover:scale-105 text-white border border-white border-solid py-2 px-4 rounded-[8px] mr-5' >
               Learning Projects
             </button>
           </div>
@@ -75,7 +75,7 @@ const Portfolio = () => {
               </figure>
               <div className='w-full h-[343px] primary_gradient my-5 opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block'>
                 <div className=' w-full h-full flex items-center justify-center'>
-                  <button onClick={() => showModalHandler(port.id)} className=' text-cyan-400 bg-black  hover:bg-gradient-text  py-2 px-4 rounded-[8px] font-[500] ease-in duration-200'>See Details</button>
+                  <button onClick={() => showModalHandler(port.id)} className=' text-white bg-black  hover:bg-blue-600 hover:text-white  py-2 px-4 rounded-[8px] font-[500] ease-in duration-200'>See Details</button>
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Portfolio = () => {
 
           {
             nextItems < portfolios.length && portfolio.length > 2 && 
-            <button onClick={loadMoreHandler} className=' text-white bg-black  hover:bg-gradient-text  py-2 px-4 rounded-[8px] font-[500] ease-in duration-200'>
+            <button onClick={loadMoreHandler} className=' text-white bg-gray-600  hover:bg-black  py-2 px-4 rounded-[8px] font-[500] ease-in duration-200'>
             Load More
           </button>
           }
