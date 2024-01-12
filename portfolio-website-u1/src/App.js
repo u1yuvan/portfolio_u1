@@ -6,16 +6,15 @@ function App() {
   return (
 
 
-    <div className=' primary_gradient scroll-smooth'>
+    <div className=' bg-[#0a192f] scroll-smooth'>
 
       <Navbar />
       <Home />
       <AboutMe />
       <Portfolio />
-      <Companies  />
+      <Skills />
       <Contact />
       <Footer />
-      <Skills />
     </div>
   );
 }

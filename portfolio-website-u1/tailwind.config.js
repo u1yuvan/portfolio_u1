@@ -6,10 +6,7 @@ module.exports = {
       fontFamily: {
         body: ['montserrat']
       },
-      colors:{
-        linkedin:" #0077b5",
-        github:"#2b3137"
-      }
+      
     },
   },
   plugins: [],

@@ -18,6 +18,14 @@ import GPT3 from './GPT3.jpg'
 import HooBank from './HooBank.jpg'
 import HTML_CSS from './HTML_CSS.jpg'
 import react_JS from './react_JS.jpg' 
+import resume from './resume.png'
+import HTML from './HTML.png'
+import CSS from './CSS.png'
+import react from './react.png'
+import tailwind from './tailwind.png'
+import javascript from './javascript.png'
+import coding from './coding.png'
+import githubIcon from './githubIcon.png'
 
 
 
@@ -25,8 +33,8 @@ import react_JS from './react_JS.jpg'
 
 
 
-export {instagram,facebook,linkdin, homeImage,classroom,school, graduationIcon, graduation, work, workicon,
-    robo,
+export {instagram,facebook,linkdin, homeImage,classroom,school, graduationIcon, graduation, work, workicon, resume,
+    robo, HTML, CSS, react, tailwind, javascript, coding, githubIcon,
     U13,
     U14,
     U15,

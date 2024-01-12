@@ -15,11 +15,11 @@ const AboutMe = () => {
             <div className=' absolute w-1  gradient_line sm:block  hidden h-full left-1/2 transform -translate-x-1/2'></div>
 
             {/* left card */}
-            <div className=' mt-6 sm:mt-0 sm:mb-12  '>
+            <div className=' mt-6 sm:mt-0 sm:mb-12 flex items-center justify-center '>
               <div className='flex items-center flex-col sm:flex-row'>
                 <div data-aos="zoom-out-right"
-                  className=' flex justify-start  mx-auto items-center  mb-5'>
-                  <div className=' sm:w-[60%] sm:pr-8 sm:-ml-24 '>
+                  className=' flex sm:justify-start md:justify-start justify-center  mx-auto items-center  mb-5'>
+                  <div className=' sm:w-[60%] w-[70%] sm:pr-8 sm:-ml-24 '>
                     <div className=' bg-gradient-text  p-4 rounded-lg shadow hover:shadow-2xl hover:scale-105 cursor-pointer '>
                       <h1 className=' font-semibold text-gray-900 text-[25px]  underline text-center'> 2018</h1>
                       <img src={classroom} className=' rounded-full items-center flex justify-center p-7' />
@@ -40,8 +40,8 @@ const AboutMe = () => {
             <div className=' mt-10 sm:mt-0 sm:mb-12'>
               <div className='flex items-center flex-col sm:flex-row'>
                 <div data-aos="zoom-out-left"
-                  className=' flex justify-end w-full mx-auto items-center  mb-5'>
-                  <div className=' sm:w-[60%] sm:-mr-24  sm:pl-7'>
+                  className=' flex sm:justify-end md:justify-end justify-center w-full mx-auto items-center  mb-5'>
+                  <div className=' sm:w-[60%] w-[70%]  sm:-mr-24  sm:pl-7'>
                     <div className='bg-gradient-text p-4 rounded-lg shadow hover:shadow-2xl hover:scale-105    cursor-pointer'>
                       <h1 className=' font-semibold text-gray-900 text-[25px] text-center underline'> 2022 </h1>
                       <img src={graduation} className=' rounded-full items-center flex justify-center p-6' />
@@ -63,8 +63,8 @@ const AboutMe = () => {
               <div className='flex items-center flex-col sm:flex-row '>
                 <div
                   data-aos="zoom-out-right"
-                  className=' flex justify-start w-full mx-auto items-center  '>
-                  <div className=' sm:w-[60%] sm:-ml-24 sm:pr-8'>
+                  className=' flex sm:justify-start md:justify-start justify-center w-full mx-auto items-center  '>
+                  <div className='sm:w-[60%] w-[70%]  sm:-ml-24 sm:pr-8'>
                     <div className='bg-gradient-text p-4 rounded-lg  shadow hover:shadow-2xl hover:scale-105   cursor-pointer '>
                       <h1 className=' font-semibold text-gray-900 text-[25px]  underline text-center'> 2022 - 2023 </h1>
                       <img src={work} className=' rounded-full items-center flex justify-center p-7' />
