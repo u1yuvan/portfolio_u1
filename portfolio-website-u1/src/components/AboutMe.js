@@ -20,7 +20,7 @@ const AboutMe = () => {
                 <div data-aos="zoom-out-right"
                   className=' flex sm:justify-start md:justify-start justify-center  mx-auto items-center  mb-5'>
                   <div className=' sm:w-[60%] w-[70%] sm:pr-8 sm:-ml-24 '>
-                    <div className=' bg-gradient-text  p-4 rounded-lg shadow hover:shadow-2xl hover:scale-105 cursor-pointer '>
+                    <div className=' bg-gradient-text  p-4 rounded-lg shadow-lg shadow-black hover:scale-105 cursor-pointer '>
                       <h1 className=' font-semibold text-gray-900 text-[25px]  underline text-center'> 2018</h1>
                       <img src={classroom} className=' rounded-full items-center flex justify-center p-7' />
                       <p className=' text-gray-900 text-[15px]'>I accomplished SSLC completion in 2018 from Shree Matriculation School</p>
@@ -42,7 +42,7 @@ const AboutMe = () => {
                 <div data-aos="zoom-out-left"
                   className=' flex sm:justify-end md:justify-end justify-center w-full mx-auto items-center  mb-5'>
                   <div className=' sm:w-[60%] w-[70%]  sm:-mr-24  sm:pl-7'>
-                    <div className='bg-gradient-text p-4 rounded-lg shadow hover:shadow-2xl hover:scale-105    cursor-pointer'>
+                    <div className='bg-gradient-text p-4 rounded-lg shadow-lg shadow-black hover:scale-105    cursor-pointer'>
                       <h1 className=' font-semibold text-gray-900 text-[25px] text-center underline'> 2022 </h1>
                       <img src={graduation} className=' rounded-full items-center flex justify-center p-6' />
                       <p className=' text-gray-900 text-[15px]'>Graduated with a Diploma in Electronics and Communication Engineering in 2022
@@ -65,7 +65,7 @@ const AboutMe = () => {
                   data-aos="zoom-out-right"
                   className=' flex sm:justify-start md:justify-start justify-center w-full mx-auto items-center  '>
                   <div className='sm:w-[60%] w-[70%]  sm:-ml-24 sm:pr-8'>
-                    <div className='bg-gradient-text p-4 rounded-lg  shadow hover:shadow-2xl hover:scale-105   cursor-pointer '>
+                    <div className='bg-gradient-text p-4 rounded-lg  shadow-lg shadow-black hover:scale-105  cursor-pointer '>
                       <h1 className=' font-semibold text-gray-900 text-[25px]  underline text-center'> 2022 - 2023 </h1>
                       <img src={work} className=' rounded-full items-center flex justify-center p-7' />
                       <p className=' text-gray-900 text-[15px]'>I gained valuable experience as a Relationship Manager at Maruti Suzuki NEXA, fostering strong connections with customers and enhancing their automotive experiences.</p>

@@ -6,7 +6,7 @@ import { coding } from '../assets';
 
 const Home = () => {
   return (
-    <div className=' p-5 sm:ml-20 ml-10 md:px-14  flex  items-center flex-col md:flex-row justify-center'>
+    <div className=' p-5 sm:ml-20 ml-10 md:px-14  flex  sm:mt-14 items-center flex-col md:flex-row justify-center'>
       <div className=' '>
         <h1 className='text-[40px] gradient-text font-bold '>{AppText.hello}</h1>
         <div className='flex flex-col sm:flex-row '>
@@ -32,7 +32,7 @@ const Home = () => {
         
        
       </div>
-          <img src={coding} className='  flex justify-center items-center w-[300px] md:w-[350px] -ml-5 p-3  sm:p-5 sm:ml-[150px] sm:mr-14 rounded-full  ' />
+          <img src={coding} className='  flex justify-center items-center w-[250px] sm:w-[280px] md:w-[350px] -ml-5 sm:ml-[150px] sm:mr-14 rounded-full shadow-lg shadow-black  ' />
     </div>
   )
 }
