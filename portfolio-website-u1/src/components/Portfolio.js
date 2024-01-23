@@ -44,7 +44,7 @@ const Portfolio = () => {
     <section id='portfolio'>
       <div className=' container'>
         <div className=' flex items-center justify-evenly flex-wrap'>
-          <div className=' mb-7 sm:mb-0'>
+          <div >
             <h3 className='gradient-text text-[3rem]  font-[700]  '>
               My Projects
             </h3>

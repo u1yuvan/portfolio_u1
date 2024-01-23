@@ -68,7 +68,7 @@ const Navabr = () => {
             </a>
           </li>
           <li className=' w-[160px] h-[60px] flex justify-between items-center  '>
-            <a   target='blank' className='  flex justify-start items-center w-[138px] ml-[-85px] mt-[-65px] pl-2 h-[45px] hover:ml-[-10px] bg-[#2b3137] text-white duration-300 shadow-md shadow-black'>
+            <a href=''  target='blank' className='  flex justify-start items-center w-[138px] ml-[-85px] mt-[-65px] pl-2 h-[45px] hover:ml-[-10px] bg-[#2b3137] text-white duration-300 shadow-md shadow-black'>
               <span className='font-[500] ml-2 mr-[20px]  text-[16px]'>Resume</span>
               <img src={resume} className=' w-[35px] h-[35px]  '/>
             </a>
