@@ -26,6 +26,7 @@ import tailwind from './tailwind.png'
 import javascript from './javascript.png'
 import coding from './coding.png'
 import githubIcon from './githubIcon.png'
+import portfolioweb from './portfolioweb.jpg'
 
 
 
@@ -34,7 +35,7 @@ import githubIcon from './githubIcon.png'
 
 
 export {instagram,facebook,linkdin, homeImage,classroom,school, graduationIcon, graduation, work, workicon, resume,
-    robo, HTML, CSS, react, tailwind, javascript, coding, githubIcon,
+    robo, HTML, CSS, react, tailwind, javascript, coding, githubIcon, portfolioweb,
     U13,
     U14,
     U15,

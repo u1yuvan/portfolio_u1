@@ -1,5 +1,5 @@
 import {
-    facebook, instagram, linkdin, Nike, GPT3, HooBank, HTML_CSS, react_JS
+    facebook, portfolioweb, linkdin, Nike, GPT3, HooBank, HTML_CSS, react_JS
 } from "../assets"
 
 export const AppText = {
@@ -71,13 +71,20 @@ export const portfolio = [
     },
     {
         id: 4,
+        title: 'Portfolio Website',
+        type: 'react_js ',
+        desc: "As a frontend developer, my portfolio website embodies the fusion of elegant design and interactive functionality, providing a compelling showcase of my skills. With a user-centric approach, it seamlessly navigates through my diverse projects, illustrating my dedication to crafting visually stunning and highly responsive web experiences",
+        imageUrl: portfolioweb,
+    },
+    {
+        id: 5,
         title: 'HTML & CSS Landing webpage',
         type: 'learning_time',
         desc: "Landing website using HTML & CSS During learning time ",
         imageUrl: HTML_CSS,
     },
     {
-        id: 5,
+        id: 6,
         title: 'Grocery shopping site ',
         type: 'learning_time',
         desc: "Grocery shopping site using React JS During learning time ",
@@ -120,6 +127,15 @@ export const datas = [
     },
     {
         id: 4,
+        title: 'Portfolio website',
+        type: 'react_js',
+        desc: "As a frontend developer, my portfolio website embodies the fusion of elegant design and interactive functionality, providing a compelling showcase of my skills. With a user-centric approach, it seamlessly navigates through my diverse projects, illustrating my dedication to crafting visually stunning and highly responsive web experiences",
+        imageUrl: portfolioweb,
+        link:"https://hoobank18.netlify.app",
+        technologies:["Javascript", "React", "Tailwind CSS"]
+    },
+    {
+        id: 5,
         title: 'HTML & CSS Landing webpage',
         type: 'learning_time',
         desc: "Landing website using HTML & CSS During learning time ",
@@ -128,7 +144,7 @@ export const datas = [
         technologies:["HTML", "CSS"]
     },
     {
-        id: 5,
+        id: 6,
         title: 'Grocery shopping site ',
         type: 'learning_time',
         desc: "Grocery shopping site using React JS During learning time ",

@@ -74,7 +74,7 @@ const Portfolio = () => {
               <figure>
                 <img src={port.imageUrl} className=' rounded-[8px] w-full my-5 shadow-md shadow-black ' />
               </figure>
-              <div className='w-full h-[344px] primary_gradient my-5 opacity-50 absolute top-0 left-0 z-[5] hidden group-hover:block'>
+              <div className='w-full sm:h-[344px] h-full primary_gradient my-5 opacity-50 absolute top-0 left-0 z-[5] hidden group-hover:block'>
                 <div className=' w-full h-full flex items-center justify-center'>
                   <button onClick={() => showModalHandler(port.id)} className='btn'><span>See Details</span></button>
                 </div>

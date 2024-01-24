@@ -1,14 +1,15 @@
 import React, { useState } from 'react'
 import { U15, resume } from '../assets'
 import { navLinks } from '../constants'
+import {Link} from 'react-scroll'
 
 const Navabr = () => {
 
   const [toggle, setToggle] = useState(false)
   return (
     <div>
-      <div className=' flex justify-between'>
-        <img src={U15} alt="logo" className=' h-[90px] sm:h-[90px] m-2 rounded-full cursor-pointer  shadow-md shadow-black ' />
+      <div className=' flex justify-between itemscenter'>
+        <img src={U15} alt="logo" className=' h-[60px] sm:h-[90px] m-2 rounded-full cursor-pointer  shadow-md shadow-black ' />
         <div>
           <ul className=' list-none md:flex hidden justify-end items-center flex-row'>
             {navLinks.map((nav, index) => (
@@ -62,7 +63,7 @@ const Navabr = () => {
             </a>
           </li>
           <li className=' w-[160px] h-[60px] flex justify-between items-center'>
-            <a href="https://yuvanraj700@gmail.com"  target='blank' className='  flex justify-start items-center w-[138px] ml-[-85px] mt-[-35px] pl-2  hover:ml-[-10px]  bg-green-400   text-white duration-300 shadow-md shadow-black'>
+            <a href="#contact"  className='  flex justify-start items-center w-[138px] ml-[-85px] mt-[-35px] pl-2  hover:ml-[-10px]  bg-green-400   text-white duration-300 shadow-md shadow-black'>
               <span className='font-[500] ml-2 mr-8 text-[16px]'>GMail</span>
               <svg xmlns="http://www.w3.org/2000/svg" height={45} width={50} className=' p-[5px] mr-1' viewBox="0 0 512 512"><path fill="#ffffff" d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
             </a>
