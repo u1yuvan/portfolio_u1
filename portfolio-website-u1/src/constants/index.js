@@ -72,7 +72,7 @@ export const portfolio = [
     {
         id: 4,
         title: 'Portfolio Website',
-        type: 'react_js ',
+        type: 'react_js',
         desc: "As a frontend developer, my portfolio website embodies the fusion of elegant design and interactive functionality, providing a compelling showcase of my skills. With a user-centric approach, it seamlessly navigates through my diverse projects, illustrating my dedication to crafting visually stunning and highly responsive web experiences",
         imageUrl: portfolioweb,
     },
@@ -131,7 +131,7 @@ export const datas = [
         type: 'react_js',
         desc: "As a frontend developer, my portfolio website embodies the fusion of elegant design and interactive functionality, providing a compelling showcase of my skills. With a user-centric approach, it seamlessly navigates through my diverse projects, illustrating my dedication to crafting visually stunning and highly responsive web experiences",
         imageUrl: portfolioweb,
-        link:"https://hoobank18.netlify.app",
+        link:"https://portfoliowebsiteu1.netlify.app",
         technologies:["Javascript", "React", "Tailwind CSS"]
     },
     {
